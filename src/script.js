@@ -45,3 +45,32 @@ if (4 == 9) {
 } else {
     console.log('NoNoNo');
 }
+
+
+// if (num < 49 ) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log ('To much');
+// } else {
+//     console.log('Ok!');
+// }
+
+
+// (num === 50) ? console.log('Ok!') : console.log('Error'); 
+
+const num = 50;
+
+switch (num) {
+    case 49:
+        console.log('Nonono');
+        break;
+    case 100:
+        console.log('Nonono');
+        break;
+    case 51:
+        console.log('Yes, right!');
+        break;
+    default:
+        console.log('Do not this time');
+        break;
+}
